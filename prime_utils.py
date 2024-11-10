@@ -11,5 +11,5 @@ def is_prime(n):
     # Проверяем делители от 5 до √n, пропуская чётные числа
     for i in range(5, int(n**0.5) + 1, 6):
         if n % i == 0 or n % (i + 2) == 0:
-            return False
-    return True
+            return False 
+    return True  
