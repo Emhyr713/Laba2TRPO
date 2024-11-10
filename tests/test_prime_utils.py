@@ -1,7 +1,7 @@
 # tests/test_prime_utils.py
 
 import unittest
-from prime_utils import is_prime
+from prime_utils import is_prime 
 
 class TestIsPrime(unittest.TestCase):
     def test_prime_numbers(self):
@@ -24,7 +24,7 @@ class TestIsPrime(unittest.TestCase):
         self.assertFalse(is_prime(8))
         self.assertFalse(is_prime(9))
         self.assertFalse(is_prime(10))
-        self.assertFalse(is_prime(12))
+        self.assertFalse(is_prime(12)) 
         self.assertFalse(is_prime(15))
         self.assertFalse(is_prime(18))
 
