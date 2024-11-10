@@ -3,10 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to My Project's documentation!
+Welcome to Laba2TRPO documentation!
 =======================================
 
-This is the main page of the documentation for *My Project*. The purpose of this project is to provide an easy-to-use solution for X.
+This is the main page of the documentation for Laba2TRPO. The purpose of this project is to provide an easy-to-use solution for X.
 
 Contents
 ========
@@ -24,40 +24,31 @@ Contents
 Installation
 ============
 
-To install *My Project*, you can use pip:
+To install Laba2TRPO, you can use pip:
 
 .. code-block:: bash
 
-   pip install my-project
+   pip install prime_utils
 
 For more detailed instructions, visit the `installation guide <installation>`.
 
 Usage
 =====
 
-After installing *My Project*, you can start using it as follows:
+After installing Laba2TRPO, you can start using it as follows:
 
 .. code-block:: python
 
-   import my_project
-   my_project.run()
+   import prime_utils
+   is_prime(37)
 
 Refer to the `usage guide <usage>` for more detailed examples.
 
-API Documentation
-================
-
-The API for *My Project* includes the following methods:
-
-- `my_project.method1`
-- `my_project.method2`
-
-For full API details, see the `API Reference <api>` section.
 
 Contributing
 ============
 
-We welcome contributions to *My Project*! Please refer to the `contributing guidelines <contributing>` for instructions on how to contribute.
+We welcome contributions to Laba2TRPO! Please refer to the `contributing guidelines <contributing>` for instructions on how to contribute.
 
 Changelog
 =========
