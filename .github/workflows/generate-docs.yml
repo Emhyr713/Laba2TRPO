@@ -28,12 +28,13 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install sphinx
+          pip install sphinx_rtd_theme  # например, для использования темы
 
       # Генерация документации
       - name: Build documentation
         run: |
           cd docs  # если ваш Sphinx проект в папке docs
-          make html
+          sphinx-build -b html . _build/html  # Генерация документации
 
       # Публикация документации на GitHub Pages
       - name: Deploy documentation to GitHub Pages
